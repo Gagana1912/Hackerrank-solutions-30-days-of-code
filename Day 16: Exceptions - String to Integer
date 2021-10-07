@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    try{
+    string s;
+    cin>>s;
+    int num=stoi(s);
+    cout<<num;
+    }
+    catch(...)
+    {
+        cout<<"Bad String";
+        
+    }
+    return 0;
+}
